@@ -11,15 +11,25 @@
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+<!--Google Font-->
 
 
+<link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Maven+Pro|Monda|Orbitron|Rubik|Mono+One|Russo+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Rubik|Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+ 
+<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+ 
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css">  
     <link rel="stylesheet" href="css/style copy.css">
-     <!-- Responsive CSS -->
-     <link rel="stylesheet" href="css/responsive.css">
-     <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/custom.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
 
      <!--our client-->
@@ -61,7 +71,7 @@
     <div class="container-fluid ">
    
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon  "></span>
       </button>
       <div class="collapse navbar-collapse  " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-1 mb-lg-0 " id="navbarleft">
@@ -99,14 +109,14 @@
             <a class="nav-link text-light"  href="support.html">Support</a>
           </li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-           <li class="nav-item border-end border-warning">
-              <a class="nav-link text-light" href="#" >
-                <a  href="#" data-toggle="modal" data-target="#modal_contribute">
-                  <span class="fa fa-sign-in" aria-hidden="true"></span>
-                   Login
-                </a>
+          <li class="nav-item border-end border-warning">
+              <a href="#" class="nav-link text-light"  data-bs-toggle="modal" data-bs-target="#md1">
+                 <span class="fa fa-sign-in" aria-hidden="true"></span>
+                 <span   class="text-light">
+                   LOGIN
+                 </span>
               </a>
-            </li>
+          </li>
             <li class="nav-item border-end border-warning ml-3">
               <a class="nav-link text-light"  href="registration.html">Online Registration</a>
             </li>
@@ -118,75 +128,69 @@
 
 
 <!--Modal Start-->
-<div id="modal_contribute" class="modal fade" role="dialog">
-	<div class="modal-dialog modal-lg modal_style1">
-		<!-- Modal content-->
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">×</button>
-			</div>
-		 
-			<div class="modal-body">
-				<div class="contribute-main">
-					<div class="row">
-						<div class="modal_style1">
-							<div class="col-md-4" style="padding:0 24px">
-								<div class="log_section1">
-									<div class="row">
-										<div class="col-xl-12">
-											<img src="https://nagriksevakendra.in/default/img/intranet.png" class="log_section3">
-										</div>
-										<div class="col-xl-12 text-center">
-											<h5 style="color:#ffffff;">Intranet</h5>
-										</div>
-										<div class="col-xl-12 text-center">
-											<a href="https://nagriksevakendra.in/admin/auth/login" target="_blank" class="btn log_button">LOGIN</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4" style="padding:0 24px">
-								<div class="log_section2">
-									<div class="row">
-										<div class="col-xl-12">
-											<img src="https://nagriksevakendra.in/default/img/users.png" class="log_section3">
-										</div>
-										<div class="col-xl-12 text-center">
-											<h5 style="color:#ffffff;">User Login</h5>
-										</div>
-										<div class="col-xl-12 text-center">
-											<a class="btn log_button2" href="https://nagriksevakendra.in/user/auth/login" target="_blank">LOGIN</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4" style="padding:0 24px">
-								<div class="log_section4">
-									<div class="row">
-										<div class="col-xl-12">
-											<img src="https://nagriksevakendra.in/default/img/user-login.png" class="log_section3">
-										</div>
-										<div class="col-xl-12 text-center">
-											<h5 style="color:#ffffff;">Individual Login</h5>
-										</div>
-										<div class="col-xl-12 text-center">
-											<a class="btn log_button3" href="https://nagriksevakendra.in/user/inauth/login" target="_blank">LOGIN</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-		<!--<div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		</div>-->
-    </div>
+<div class="modal fade" id="md1">
+  <div class="modal-dialog">
+       <div class="modal-content" style="background-color: transparent;border-radius: 10px 10px 10px 10px;">
+         <div class="modal-header " style="border:none;margin:0px;border-radius: 10px 10px 0px 0px;background: rgba(200, 90, 34, 0.75);box-shadow: 0 15px 18px -6px #000;">
+            <div class="container pt-2 pb-2 d-flex justify-content-around" >
+              <h3 id="welcome_log" class="modal-title text-light text-center" style="font-family: 'Monda', sans-serif; ">Welcome To New Member</h3>
+               <div class="pr-2  mt-2">
+                  <button type="button" class=" btn-close  text-light" id="join2" data-bs-dismiss="modal" aria-label="Close"> </button>
+               </div>
+           </div>
+        </div>
 
-  </div>
+         <div class="modal-body  " style="background: rgba(200, 90, 34, 0.75);border-radius: 0px 0px 10px 10px" >
+
+           <div class="container pt-4">
+             <form   method = "POST">
+                    <div  class="input-group pl-3 pr-3 pb-1">
+                         <div class="input-group-prepend">
+                         <span class="input-group-text p-3" style="font-size:28px;background-color:#e6e6e6;border:none;border-radius:18px 0px 0px 18px" >
+                          <i class="fa fa-user" style="font-size:18px;" ></i>
+                        </span>
+                            </div>
+                         <input type="text" class="form-control input-lg"  placeholder="Username" style="border-radius: 0px 18px 18px  0px;background-color:#e6e6e6; border:none">
+                      </div>
+                       <br>
+                        <div class="input-group pl-3 pr-3 pb-1">
+                             <div class="input-group-prepend">
+                                  <span class="input-group-text p-3" style="font-size:24px;background-color:#e6e6e6;border:none;border-radius:18px 0px 0px 18px"><i class="fa fa-lock" style="font-size:18px" ></i> </span>
+                             </div>
+                             <input type="password" class="form-control input-lg" placeholder="Password" style="border-radius: 0px 18px 18px  0px;background-color:#e6e6e6; border:none">
+                         </div>
+                      <br>
+                        <div class="input-container pl-3 pr-3  ">
+                         
+                          
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <a href="#"   id="join2" class="btn p-1 btn-block" name="btn"><span id="Sign_in" class="text text-white p-1" style=" font-size:18px;letter-spacing:1px;font-family: 'Maven Pro', serif;">SIGN-IN</span>
+                            </a>
+                          </div>
+                         
+
+                        </div>
+                        <br>
+                              <div class="input-container pt-1 text-center">
+                                <div class="text-center ">
+                              <p class="text-light" style="font-size:15px;word-spacing:2px;letter-spacing:1px">DON'T HAVE AN ACCOUNT?</p>
+
+                               <a href="registration.html" class="      btn btn-outline-info">
+                                <span class="text text-light" style="font-size:18px;font-family: Nanum Gothic">sign up</span>
+                              </a>
+                              <a href="forget.php"  class="btn btn-outline-warning  " name="btn">
+                                 <span class="text" style="font-size:18px ">Forget Password?</span>
+                              </a>
+
+                               </div>
+                              </div>
+
+                  </form>
+               </div>
+           </div>
+         </div>
+       </div>
+     </div>
  <!--Modal End-->
 
 
@@ -292,7 +296,7 @@
 
 
 <!--Our Services start-->
- <section id="special" class="container-fluid">
+<section id="special" class="container-fluid">
   <div class="heading text-center">
     <h1 id="mainTitle">Our Services</h1> 
   </div>
@@ -307,7 +311,7 @@
               <img style="max-width:250px;height:235px" src="images/b2b.png" alt="Avatar" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About B2B Service Kindly contact our Business Agent.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -322,7 +326,7 @@
               <img style="max-width:250px;height:235px" src="images/legel services.jpg" alt="Avatar" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About LEGAL Service Kindly contact our Legal Team.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -333,11 +337,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">Adhar SERVICES</p>
-              <img style="max-width:250px;height:235px" src="images/aadhar services.png" alt="Avatar" style="width:300px;height:300px;">
+            <p class="pt-2 text-light">Aadhar SERVICES</p>
+              <img style="max-width:250px;height:235px" src="images/aadhar serv1.jpg " alt="Avatar" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About Aadhar Service Kindly contact our Aadhar Support Team.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -348,11 +352,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">LED BULB</p>
-              <img style="max-width:250px;height:235px" src="images/LED-BULB-SERVICES.jpg" alt="Avatar" style="width:300px;height:300px;">
+            <p class="pt-2 text-light">BILL PAYMENT</p>
+              <img style="max-width:250px;height:235px" src="images/LED-BULB-ser2.jpg" alt="Avatar" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About BILL PAYMENT Service Kindly contact our Payment Partner.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -368,11 +372,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">LIC BILL PAYMENT</p>
+            <p class="pt-2 text-light">LIC PREMIUM</p>
               <img style="max-width:250px;height:235px" src="images/LIC IMAGE.jpg" alt="Avatar" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About LIC PREMIUM Service Kindly contact our LIC Agent.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -383,11 +387,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">Health Insurance</p>
-              <img style="max-width:250px;height:235px" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Avatar" style="width:300px;height:300px;">
+            <p class="pt-2 text-light">HEALTH INSURANCE</p>
+              <img style="max-width:250px;height:235px" src="https://www.collegeconsensus.com/wp-content/uploads/2019/03/Online-Degree-in-Business-Administration-in-Healthcare-Administration-BBA-MBA-EMBA-DBA-1024x683.jpg">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About HEALTH INSURANCE Service Kindly contact our Health Supportive Team.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -398,11 +402,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">Adhar SERVICES</p>
-              <img style="max-width:250px;height:235px" src="https://images.unsplash.com/photo-1516055619834-586f8c75d1de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Avatar" style="width:300px;height:300px;">
+            <p class="pt-2 text-light">HOTEL BOOKING</p>
+              <img style="max-width:250px;height:235px" src="https://emarks.in/img/services/hotel.jpg">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About HOTEL BOOKING Service Kindly contact our HOTEL Executive Team.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -413,11 +417,11 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <p class="pt-2 text-light">LED BULB</p>
-              <img style="max-width:250px;height:235px" src="data:image/png;base64,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" alt="Avatar" style="width:300px;height:300px;">
+            <p class="pt-2 text-light">TICKET BOOKING</p>
+              <img style="max-width:250px;height:235px" src="https://images.indianexpress.com/2020/05/Book-Flights-Indigo-759.jpg">
             </div>
             <div class="flip-card-back">
-              <h4 class="pt-4 text-light servText">For More info About the service Kindly contact our sales Fores agent</h4> 
+              <h4 class="pt-4 text-light servText">For More info About TICKET BOOKING Service Kindly contact our Ticket Agent.</h4> 
                <a class="btn btn-danger mt-5" href="#" role="button">Contact US Now</a> 
               
             </div>
@@ -446,21 +450,21 @@
      <div class="col-md-3" id="partner2">
       <p class="text-dark h4" style="margin-top: 10px;font-family:'Segoe UI', sans-serif;">Become a Distributor</p>
       <h5 class="pt-3 text-muted" id="PartnersubText">
-        NSK Offers to Every Entrepreneur to get exclusive Business opportunities.
+        JSK Offers to Every Entrepreneur to get exclusive Business opportunities.
       </h5>
          <a class="btn-sm btn-danger" href="#" role="button"><span class="p-3">View More Offer</span></a> 
     </div>
     <div class="col-md-3" id="partner3">
       <p class="text-dark h4" style="margin-top: 10px;font-family:'Segoe UI', sans-serif;">Become a District Partner</p>
       <h5 class="pt-3 text-muted" id="PartnersubText">
-        NSK Offers to Every Entrepreneur to get exclusive Business opportunities.
+        JSK Offers to Every Entrepreneur to get exclusive Business opportunities.
       </h5>
          <a class="btn-sm btn-danger" href="#" role="button"><span class="p-3">View More Offer</span></a> 
     </div>
     <div class="col-md-3" id="partner4">
       <p class="text-dark h4" style="margin-top: 10px;font-family:'Segoe UI', sans-serif;">Become a State Partner</p>
       <h5 class="pt-3 text-muted" id="PartnersubText">
-        NSK Offers to Every Entrepreneur to get exclusive Business opportunities.
+        JSK Offers to Every Entrepreneur to get exclusive Business opportunities.
       </h5>
          <a class="btn-sm btn-danger" href="#" role="button"><span class="p-3">View More Offer</span></a> 
     </div>
@@ -536,8 +540,8 @@
   </div>
 
   <div class="col-lg-6 p-1  mb-7 mb-lg-0">
-    <br> 
-    <img src="images/india flag.jpg" class="img-fluid d-block mx-auto" alt="India Map">
+    
+    <img src="images/india flag.jpg" style="height:65vh" class="img-fluid d-block mx-auto" alt="India Map">
 
   </div>
  
@@ -557,64 +561,64 @@
        </div>
        <span class="line"></span>
        <div id="clients-slider" class="owl-carousel">
-         <div class="item">
+         <div class="item1 p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/dell.png">
+           <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/freecharge.png">
            </a>
          </div>
-         <div class="item">
+         <div class="item1 p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/google.png">
+           <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/cocacola.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/bharat bill pay.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1 p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/shell.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/citi.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1 p-1 align-items-center">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/smart-small.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="data:image/png;base64,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">
            </a>
          </div> 
-         <div class="item">
+         <div class="item1 p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/cisco.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/everyday.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/aztec.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/cityairline-grey.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/shell_grey.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/vadafone_grey.png">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
-         <div class="item">
+         <div class="item1  p-1">
            <a href="#">
-           <img alt="Our Client" src="images/OurClients/naturallygreen.jpg">
+            <img alt="Our Client" class="img-fluid mx-auto d-block" src="images/OurClients/mastercard.jpg">
            </a>
          </div>
        </div>
@@ -639,9 +643,11 @@
     <div class="box-wrapper">
        <h3>Services</h3>
           <ul>
-            <li><a rel="canonical" href="services.html">G2C Services</a></li>
-            <li><a rel="canonical" href="services.html" title="B2c">B2C Services</a></li>
-            <li><a rel="canonical" href="services.html">Legal Services</a></li>
+            <li><a rel="canonical" href="services.html">Aadhar Update</a></li>
+            <li><a rel="canonical" href="services.html">Hotel Booking</a></li>
+            <li><a rel="canonical" href="services.html" title="B2c">Bill Payment</a></li>
+           
+            
           <div class="clearfix"></div>
           </ul>
     </div>
@@ -649,7 +655,7 @@
 
   <div class="col-md-3">
     <div class="box-wrapper">
-  <h3>Janta Seva Kendra</h3>
+  <h3>JSK's Condition</h3>
           <ul>
             <li><a href="#" title="privacy policy">Privacy Policy</a></li>
             <li><a href="#" title="terms and conditions">Terms And Condition</a></li>
@@ -664,6 +670,8 @@
     <h3>Janta Seva Kendra</h3>
             <ul>
               <li><a rel="canonical" href="about us.html">About Us</a></li>
+              <li><a rel="canonical" href="our partner.html"></a>Partner</li>
+              <li><a rel="canonical" href="projects.html">Projects</a></li>
                 <div class="clearfix"></div>
             </ul>
     </div>
