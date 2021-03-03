@@ -100,9 +100,11 @@
           </li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
            <li class="nav-item border-end border-warning">
-              <a class="nav-link text-light"  href="#">
-                <span class="fa fa-sign-in" aria-hidden="true"></span>
+              <a class="nav-link text-light" href="#" >
+                <a  href="#" data-toggle="modal" data-target="#modal_contribute">
+                  <span class="fa fa-sign-in" aria-hidden="true"></span>
                    Login
+                </a>
               </a>
             </li>
             <li class="nav-item border-end border-warning ml-3">
@@ -113,7 +115,82 @@
     </div>
   </nav>
   <!--Nav End-->
- 
+
+
+<!--Modal Start-->
+<div id="modal_contribute" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg modal_style1">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+			</div>
+		 
+			<div class="modal-body">
+				<div class="contribute-main">
+					<div class="row">
+						<div class="modal_style1">
+							<div class="col-md-4" style="padding:0 24px">
+								<div class="log_section1">
+									<div class="row">
+										<div class="col-xl-12">
+											<img src="https://nagriksevakendra.in/default/img/intranet.png" class="log_section3">
+										</div>
+										<div class="col-xl-12 text-center">
+											<h5 style="color:#ffffff;">Intranet</h5>
+										</div>
+										<div class="col-xl-12 text-center">
+											<a href="https://nagriksevakendra.in/admin/auth/login" target="_blank" class="btn log_button">LOGIN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4" style="padding:0 24px">
+								<div class="log_section2">
+									<div class="row">
+										<div class="col-xl-12">
+											<img src="https://nagriksevakendra.in/default/img/users.png" class="log_section3">
+										</div>
+										<div class="col-xl-12 text-center">
+											<h5 style="color:#ffffff;">User Login</h5>
+										</div>
+										<div class="col-xl-12 text-center">
+											<a class="btn log_button2" href="https://nagriksevakendra.in/user/auth/login" target="_blank">LOGIN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4" style="padding:0 24px">
+								<div class="log_section4">
+									<div class="row">
+										<div class="col-xl-12">
+											<img src="https://nagriksevakendra.in/default/img/user-login.png" class="log_section3">
+										</div>
+										<div class="col-xl-12 text-center">
+											<h5 style="color:#ffffff;">Individual Login</h5>
+										</div>
+										<div class="col-xl-12 text-center">
+											<a class="btn log_button3" href="https://nagriksevakendra.in/user/inauth/login" target="_blank">LOGIN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>-->
+    </div>
+
+  </div>
+ <!--Modal End-->
+
+
+
 <!--Hero Section-->
 <div id="slides" class="cover-slides">
   <ul class="slides-container">
