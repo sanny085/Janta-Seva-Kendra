@@ -14,20 +14,17 @@
 	/* ..............................................
     Fixed Menu
     ................................................. */
-    
-	$(window).on('scroll', function () {
+    $(window).on('scroll', function () {
 		if ($(window).scrollTop() > 50) {
 			$('.top-header').addClass('fixed-menu');
 		} else {
 			$('.top-header').removeClass('fixed-menu');
 		}
 	});
-	
-	/* ..............................................
+/* ..............................................
     Gallery
     ................................................. */
-	
-	$('#slides').superslides({
+   $('#slides').superslides({
 		inherit_width_from: '.cover-slides',
 		inherit_height_from: '.cover-slides',
 		play: 5000,
@@ -39,8 +36,7 @@
 	/* ..............................................
     Map Full
     ................................................. */
-	
-	$(document).ready(function(){ 
+    $(document).ready(function(){ 
 		$(window).on('scroll', function () {
 			if ($(this).scrollTop() > 100) { 
 				$('#back-to-top').fadeIn(); 
@@ -57,8 +53,7 @@
 	/* ..............................................
     Special Menu
     ................................................. */
-	
-	var Container = $('.container');
+    var Container = $('.container');
 	Container.imagesLoaded(function () {
 		var portfolio = $('.special-menu');
 		portfolio.on('click', 'button', function () {
@@ -76,23 +71,16 @@
 	/* ..............................................
     BaguetteBox
     ................................................. */
-	
-	baguetteBox.run('.tz-gallery', {
+    baguetteBox.run('.tz-gallery', {
 		animation: 'fadeIn',
 		noScrollbars: true
 	});
 	
-	
-	
 	/* ..............................................
     Datepicker
     ................................................. */
-	
 	$('.datepicker').pickadate();
-	
 	$('.time').pickatime();
-	
-	
 	
 	
 	
