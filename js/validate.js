@@ -1,7 +1,6 @@
 /*global jQuery:false */
 jQuery(document).ready(function($) {
 "use strict";
-
 	//Contact
 	$('form.validateform').submit(function(){
 
@@ -23,8 +22,7 @@ jQuery(document).ready(function($) {
 			}else{
 			    rule = rule.substr( pos+1, rule.length );
 			}
-			
-			switch( rule ){
+		   switch( rule ){
 			    case 'required':
 				if( i.val()=='' ){ ferror=ierror=true; }
 				break;
