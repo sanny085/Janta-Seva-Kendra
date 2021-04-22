@@ -2,8 +2,7 @@
 jQuery(document).ready(function($){
 
 if (jQuery().quicksand) {
-
- 	// Clone applications to get a second collection
+        // Clone applications to get a second collection
 	var $data = $(".portfolio").clone();
 	
 	//NOTE: Only filter on the main portfolio page, not on the subcategory pages
