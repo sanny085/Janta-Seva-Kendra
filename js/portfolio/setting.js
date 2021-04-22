@@ -1,6 +1,4 @@
-
 jQuery(document).ready(function($){
-
 if (jQuery().quicksand) {
         // Clone applications to get a second collection
 	var $data = $(".portfolio").clone();
@@ -32,7 +30,6 @@ if (jQuery().quicksand) {
 					title : { type: 'inside' },
 				}
 			});
-
 
 		});	
 		$(this).addClass("active"); 			
